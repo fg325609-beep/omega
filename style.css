@@ -318,7 +318,7 @@ main section .container .section_thearee ul {
 }
 main section .container .section_thearee ul li {
   display: flex;
-  gap: 10px;
+  gap: 1 0px;
   background: white;
   width: 30%;
   padding: 20px 10px;
