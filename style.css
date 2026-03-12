@@ -399,6 +399,79 @@ main section .container .section_foo .section_foo_right .right_two {
   -o-object-fit: cover;
      object-fit: cover;
 }
+main section .container .section_five {
+  padding: 50px 0;
+  text-align: center;
+}
+main section .container .section_five h1 {
+  font-family: CircularStd;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1.88px;
+  text-align: center;
+}
+main section .container .section_five p {
+  font-family: CircularStd;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 39px;
+  letter-spacing: -0.66px;
+  text-align: center;
+}
+main section .container .section_five .section_five_cards {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main section .container .section_five .section_five_cards .card {
+  background: white;
+  width: 40%;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main section .container .section_five .section_five_cards .card ul img {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+main section .container .section_five .section_five_cards .card ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main section .container .section_five .section_five_cards .card ul li {
+  display: flex;
+  flex-direction: column;
+}
+main section .container .section_five .section_five_cards .card ul li h1 {
+  font-family: CircularStd;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 28px;
+  letter-spacing: -0.66px;
+}
+main section .container .section_five .section_five_cards .card ul li p {
+  font-family: CircularStd;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+}
+main section .container .section_five .section_five_cards .card h1 {
+  font-family: CircularStd;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 39px;
+  letter-spacing: -0.66px;
+  text-align: start;
+}
 
 @media (max-width: 1122px) {
   main .section_one .container .section__one {

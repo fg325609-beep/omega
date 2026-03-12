@@ -454,6 +454,89 @@ section{
         }
     }
 }
+
+
+section{
+    .container{
+        .section_five{
+            padding: 50px 0;
+            text-align: center;
+            h1{
+                font-family: CircularStd;
+                font-weight: 700;
+                font-size: 60px;
+                line-height: 70px;
+                letter-spacing: -1.88px;
+                text-align: center;
+                
+            }
+            p{
+                font-family: CircularStd;
+                font-weight: 400;
+                font-size: 21px;
+                line-height: 39px;
+                letter-spacing: -0.66px;
+                text-align: center;
+                
+            }
+            .section_five_cards{
+                padding: 50px 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                .card{
+                    background: white;
+                    width: 40%;
+                  padding: 15px;
+                  border-radius: 10px;
+                  display: flex;
+                  flex-direction: column;
+                  gap: 10px;
+                  ul{
+                    img{
+                        width: 50px;
+                        height: 50px;
+                        object-fit: cover;
+                        border-radius: 50%;
+                    }
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    li{
+                        display: flex;
+                        flex-direction: column;
+                        h1{
+                            font-family: CircularStd;
+                            font-weight: 700;
+                            font-size: 21px;
+                            line-height: 28px;
+                            letter-spacing: -0.66px;
+                            
+                        }
+                        p{
+                            font-family: CircularStd;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 28px;
+                            letter-spacing: -0.5px;
+                            
+                        }
+                    }
+                  }
+                  h1{
+                    font-family: CircularStd;
+                    font-weight: 400;
+                    font-size: 21px;
+                    line-height: 39px;
+                    letter-spacing: -0.66px;
+                    text-align: start;
+                    
+                  }
+                }
+            }
+        }
+    }
+}
 }
 
 
