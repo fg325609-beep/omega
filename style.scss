@@ -330,7 +330,60 @@ main{
 section{
     .container{
         .section_thearee{
-            
+            padding:100px 0 ;
+            width: 85%;
+            justify-content: center;
+            margin: 0 auto;
+            text-align: center;
+            h1{
+                  font-family: CircularStd;
+                 font-weight: 700;
+                 font-size: 60px;
+                 line-height: 70px;
+                 letter-spacing: -1.88px;
+                 text-align: center;
+                 padding: 50px 0;
+                 
+            }
+            ul{
+                width: 100%;
+                .two_ul{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                text-align: center;
+                align-items: center;
+                li{
+                    display: flex;
+                    gap: 10px;
+                    background: white;
+                    width: 30%;
+                    padding: 20px 10px;
+                    border-radius: 10px;
+                    align-items: center;
+                    h1{
+                        font-family: CircularStd;
+                        font-weight: 700;
+                        font-size: 21px;
+                        line-height: 100%;
+                        letter-spacing: -0.66px;
+                        
+                    }
+                    i{
+                        width: 70px ;
+                        height: 70px;
+                        font-size: 30px;
+                        border-radius: 50%;
+                        align-items: center;
+                        justify-content: center;
+                        display: flex;
+                    }
+                }
+            }
         }
     }
 }

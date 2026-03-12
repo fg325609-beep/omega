@@ -285,6 +285,63 @@ main section .section_two .section_two_right {
 main section .section_two .section_two_right img {
   width: 100%;
 }
+main section .container .section_thearee {
+  padding: 100px 0;
+  width: 85%;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+main section .container .section_thearee h1 {
+  font-family: CircularStd;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1.88px;
+  text-align: center;
+  padding: 50px 0;
+}
+main section .container .section_thearee ul {
+  width: 100%;
+}
+main section .container .section_thearee ul .two_ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section .container .section_thearee ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+}
+main section .container .section_thearee ul li {
+  display: flex;
+  gap: 10px;
+  background: white;
+  width: 30%;
+  padding: 20px 10px;
+  border-radius: 10px;
+  align-items: center;
+}
+main section .container .section_thearee ul li h1 {
+  font-family: CircularStd;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 100%;
+  letter-spacing: -0.66px;
+}
+main section .container .section_thearee ul li i {
+  width: 70px;
+  height: 70px;
+  font-size: 30px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
 @media (max-width: 1122px) {
   main .section_one .container .section__one {
     gap: 10px;
