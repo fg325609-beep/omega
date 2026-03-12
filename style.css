@@ -162,13 +162,18 @@ main .section_one {
   background: rgb(65, 62, 101);
   padding: 100px 0;
 }
-main .section_one .container .section_left {
+main .section_one .container .section__one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .section_one .container .section__one .section_left {
   width: 30%;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-main .section_one .container .section_left ul {
+main .section_one .container .section__one .section_left ul {
   border-radius: 10px;
   background: white;
   gap: 30px;
@@ -177,7 +182,7 @@ main .section_one .container .section_left ul {
   display: flex;
   align-items: center;
 }
-main .section_one .container .section_left ul .img {
+main .section_one .container .section__one .section_left ul .img {
   align-items: center;
   justify-content: center;
   background: rgba(240, 64, 55, 0.0972);
@@ -186,10 +191,10 @@ main .section_one .container .section_left ul .img {
   padding: 20px;
   border-radius: 50%;
 }
-main .section_one .container .section_left ul .img img {
+main .section_one .container .section__one .section_left ul .img img {
   width: 100%;
 }
-main .section_one .container .section_left ul li h1 {
+main .section_one .container .section__one .section_left ul li h1 {
   font-family: CircularStd;
   font-weight: 700;
   font-size: 24px;
@@ -197,28 +202,28 @@ main .section_one .container .section_left ul li h1 {
   letter-spacing: -0.75px;
   padding-bottom: 10px;
 }
-main .section_one .container .section_left ul li p {
+main .section_one .container .section__one .section_left ul li p {
   font-family: CircularStd;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: -0.5px;
 }
-main .section_one .container .section_right {
+main .section_one .container .section__one .section_right {
   width: 44%;
   color: white;
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-main .section_one .container .section_right h1 {
+main .section_one .container .section__one .section_right h1 {
   font-family: CircularStd;
   font-weight: 700;
   font-size: 60px;
   line-height: 70px;
   letter-spacing: -1.88px;
 }
-main .section_one .container .section_right p {
+main .section_one .container .section__one .section_right p {
   font-family: CircularStd;
   font-weight: 400;
   font-size: 21px;
@@ -226,7 +231,7 @@ main .section_one .container .section_right p {
   letter-spacing: -0.66px;
   opacity: 0.5;
 }
-main .section_one .container .section_right a {
+main .section_one .container .section__one .section_right a {
   color: rgb(255, 255, 255);
   font-family: CircularStd;
   font-weight: 500;
@@ -288,5 +293,52 @@ main .section_one .container .section_right a {
   header .header_hero .header_hero_right .img_two {
     width: 200px;
     height: 200px;
+  }
+}
+@media (max-width: 1122px) {
+  main .section_one .container .section__one {
+    gap: 10px;
+    justify-content: center;
+  }
+  main .section_one .container .section__one .section_right {
+    gap: 10px;
+  }
+  main .section_one .container .section__one .section_right h1 {
+    font-size: 30px;
+    line-height: normal;
+  }
+  main .section_one .container .section__one .section_right p {
+    line-height: normal;
+  }
+  main .section_one .container .section__one .section_right a {
+    padding: 0;
+    width: 100%;
+    padding: 10px;
+  }
+}
+@media (max-width: 990px) {
+  main .section_one .container .section__one {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+  }
+  main .section_one .container .section__one .section_left {
+    width: 100%;
+  }
+  main .section_one .container .section__one .section_right {
+    width: 100%;
+    gap: 30px;
+  }
+  main .section_one .container .section__one .section_right h1 {
+    font-size: 50px;
+    line-height: 48px;
+  }
+  main .section_one .container .section__one .section_right p {
+    line-height: 28px;
+  }
+  main .section_one .container .section__one .section_right a {
+    padding: 0;
+    width: 100%;
+    padding: 10px;
   }
 }/*# sourceMappingURL=style.css.map */
