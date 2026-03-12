@@ -180,6 +180,114 @@ header{
 }
 
 
+
+
+main{
+    .section_one{
+        background: rgba(65, 62, 101, 1);
+        padding: 100px 0;
+        .container{
+            
+            
+            
+            .section_left{
+                width: 30%;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                ul{
+                        border-radius: 10px;
+                        background: white;
+                        gap: 30px;
+                        padding: 10px;
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        .img{
+                            align-items: center;
+                            justify-content: center;
+                            background: rgba(240, 64, 55, 0.0972);
+                            color: rgba(240, 64, 55, 1);
+                            display: flex;
+                            padding: 20px;
+                            border-radius: 50%;
+                            img{
+                                width: 100%;
+                            }
+                           
+    
+    
+                        }
+                        li{
+                           h1{
+                            font-family: CircularStd;
+                            font-weight: 700;
+                            font-size: 24px;
+                            line-height: 100%;
+                            letter-spacing: -0.75px;
+                            padding-bottom:10px;
+    
+                            
+                           }
+                           p{
+                            font-family: CircularStd;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 20px;
+                            letter-spacing: -0.5px;
+                            
+                           }
+    
+                        }
+                    }
+                }
+                .section_right{
+                    width: 44%;
+                    color: white;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    h1{
+                        font-family: CircularStd;
+                        font-weight: 700;
+                        font-size: 60px;
+                        line-height: 70px;
+                        letter-spacing: -1.88px;
+                        
+                    }
+                    p{
+                        font-family: CircularStd;
+                        font-weight: 400;
+                        font-size: 21px;
+                        line-height: 39px;
+                        letter-spacing: -0.66px;
+                        opacity: 0.5;
+                        
+                    }
+                    a{
+                        color: rgba(255, 255, 255, 1);
+                        font-family: CircularStd;
+                        font-weight: 500;
+                        font-size: 21px;
+                        line-height: 100%;
+                        letter-spacing: -0.66px;
+                        padding: 15px 25px;
+                        background: rgba(240, 64, 55, 1);
+                        border: 1px solid rgba(195, 26, 18, 1);
+                        align-items: center;
+                        justify-content: center;
+                        display: flex;
+                        width: 30%;
+                        border-radius: 8px;
+                        
+                        
+                    }
+                }
+            
+        }
+    }
+}
+
 @media(max-width:788px){
     header{
         .header_hero{
@@ -229,3 +337,5 @@ header{
         }
     }
 }
+
+

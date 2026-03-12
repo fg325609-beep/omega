@@ -158,6 +158,91 @@ header .container .header_hero .header_hero_right .img_two {
     align-items: center;
   }
 }
+main .section_one {
+  background: rgb(65, 62, 101);
+  padding: 100px 0;
+}
+main .section_one .container .section_left {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .section_one .container .section_left ul {
+  border-radius: 10px;
+  background: white;
+  gap: 30px;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+main .section_one .container .section_left ul .img {
+  align-items: center;
+  justify-content: center;
+  background: rgba(240, 64, 55, 0.0972);
+  color: rgb(240, 64, 55);
+  display: flex;
+  padding: 20px;
+  border-radius: 50%;
+}
+main .section_one .container .section_left ul .img img {
+  width: 100%;
+}
+main .section_one .container .section_left ul li h1 {
+  font-family: CircularStd;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.75px;
+  padding-bottom: 10px;
+}
+main .section_one .container .section_left ul li p {
+  font-family: CircularStd;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+}
+main .section_one .container .section_right {
+  width: 44%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main .section_one .container .section_right h1 {
+  font-family: CircularStd;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1.88px;
+}
+main .section_one .container .section_right p {
+  font-family: CircularStd;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 39px;
+  letter-spacing: -0.66px;
+  opacity: 0.5;
+}
+main .section_one .container .section_right a {
+  color: rgb(255, 255, 255);
+  font-family: CircularStd;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 100%;
+  letter-spacing: -0.66px;
+  padding: 15px 25px;
+  background: rgb(240, 64, 55);
+  border: 1px solid rgb(195, 26, 18);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 30%;
+  border-radius: 8px;
+}
+
 @media (max-width: 788px) {
   header .header_hero {
     width: 100%;
