@@ -555,8 +555,67 @@ main section .container .section_six .section_six_right {
 }
 
 footer .container .f_container {
+  flex-wrap: wrap;
+}
+footer .container .f_container .title {
+  font-family: CircularStd;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.5px;
+  padding-bottom: 30px;
+}
+footer .container .f_container .f_ul {
+  display: flex;
+  flex-direction: column;
+}
+footer .container .f_container .f_ul li {
+  font-family: CircularStd;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 38px;
+  letter-spacing: -0.5px;
+}
+footer .container .f_container .f_ul a {
+  padding: 10px 0;
+}
+footer .container .f_container {
+  padding: 100px 0;
   display: flex;
   align-items: start;
+  justify-content: space-between;
+}
+footer .container .f_container .card_one {
+  width: 20%;
+}
+footer .container .f_container .card_one h1 {
+  font-family: CircularStd;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.75px;
+}
+footer .container .f_container .card_one p {
+  font-family: CircularStd;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  opacity: 0.5;
+}
+footer .container .f_container .card_one .iconlar {
+  display: flex;
+  gap: 20px;
+}
+footer .container .f_container .card_one .iconlar i {
+  width: 40px;
+  height: 40px;
+  background: rgb(105, 104, 113);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 50%;
 }
 
 @media (max-width: 1122px) {
@@ -731,6 +790,10 @@ footer .container .f_container {
     position: absolute;
     left: -30px;
     bottom: 30px;
+  }
+  footer .container .f_container {
+    flex-wrap: wrap-reverse;
+    gap: 50px;
   }
 }
 @media (max-width: 700px) {
