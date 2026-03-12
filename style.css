@@ -9,7 +9,7 @@
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -23,6 +23,9 @@ header .container .navbar {
   display: flex;
   align-items: center;
   gap: 50px;
+}
+header .container .navbar a {
+  color: black;
 }
 header .container .navbar .navbar_a {
   font-family: CircularStd;
@@ -46,4 +49,159 @@ header .container .navbar ul a {
 }
 header .container .navbar ul a:hover {
   color: rgb(240, 64, 55);
+}
+header .container .header_hero {
+  justify-content: space-between;
+  padding-bottom: 200px;
+  padding-top: 100px;
+  display: flex;
+}
+header .container .header_hero .header_hero_left h1 {
+  font-family: CircularStd;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1.88px;
+}
+header .container .header_hero .header_hero_left p {
+  font-family: CircularStd;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 39px;
+  letter-spacing: -0.66px;
+  padding: 30px 0;
+}
+header .container .header_hero .header_hero_left form {
+  justify-content: space-between;
+}
+header .container .header_hero .header_hero_left form i {
+  opacity: 0.5;
+}
+header .container .header_hero .header_hero_left form {
+  background: white;
+  width: 100%;
+  gap: 10px;
+  align-items: center;
+  padding: 7px;
+  display: flex;
+  border-radius: 10px;
+}
+header .container .header_hero .header_hero_left form a {
+  padding: 10px 20px;
+  background: rgb(240, 64, 55);
+  border: 1px solid rgb(195, 26, 18);
+  border-radius: 5px;
+}
+header .container .header_hero .header_hero_left form input {
+  outline: none;
+  border: none;
+}
+header .container .header_hero .header_hero_left {
+  width: 40%;
+}
+header .container .header_hero .header_hero_right {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+header .container .header_hero .header_hero_right .img_one {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  align-self: end;
+}
+header .container .header_hero .header_hero_right .img_two {
+  align-items: flex-end;
+  border: 9px solid white;
+  width: 190px;
+  height: 190px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+@media (max-width: 923px) {
+  header .container .header_hero {
+    justify-content: center;
+  }
+  header .container .header_hero .header_hero_left h1 {
+    font-size: 35px;
+    line-height: normal;
+  }
+  header .container .header_hero .header_hero_left p {
+    font-size: 20px;
+    line-height: normal;
+  }
+  header .container .header_hero .header_hero_left form {
+    gap: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+  }
+  header .container .header_hero .header_hero_left form a {
+    padding: 5px;
+  }
+  header .container .header_hero .header_hero_right {
+    width: 25%;
+    align-self: center;
+  }
+  header .container .header_hero .header_hero_right .img_one {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+  }
+  header .container .header_hero .header_hero_right .img_two {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+  }
+}
+@media (max-width: 788px) {
+  header .header_hero {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  header .header_hero .header_hero_left {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  header .header_hero .header_hero_left h1 {
+    width: 250px;
+    margin: 0 auto;
+  }
+  header .header_hero .header_hero_left p {
+    width: 250px;
+  }
+  header .header_hero .header_hero_left form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  header .header_hero .header_hero_left form a {
+    width: 290px;
+    text-align: center;
+  }
+  header .header_hero .header_hero_left form {
+    display: flex;
+    gap: 30px;
+    padding: 20px 0;
+  }
+  header .header_hero .header_hero_left form input {
+    width: 100%;
+  }
+  header .header_hero .header_hero_right {
+    width: 100%;
+  }
+  header .header_hero .header_hero_right .img_one {
+    width: 200px;
+    height: 200px;
+  }
+  header .header_hero .header_hero_right .img_two {
+    width: 200px;
+    height: 200px;
+  }
 }/*# sourceMappingURL=style.css.map */
