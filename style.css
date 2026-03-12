@@ -285,7 +285,6 @@ main section .section_two .section_two_right {
 main section .section_two .section_two_right img {
   width: 100%;
 }
-
 @media (max-width: 1122px) {
   main .section_one .container .section__one {
     gap: 10px;
